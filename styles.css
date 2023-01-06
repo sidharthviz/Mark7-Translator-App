@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Kalam:wght@300;400&family=Moon+Dance&family=Paytone+One&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,800;1,100;1,200;1,400&family=Righteous&family=Rowdies:wght@300;400&family=Seymour+One&family=Ubuntu:wght@300;500;700&display=swap');
+body{
+    margin: 0;
+    background-color: #a8a29e;
+    font-family: 'kalam', cursive;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.navigation {
+    text-align: center;
+    background-color: black;
+    color: #9ca3af;
+    font-size: large;
+}
+
+
+.img {
+    height: auto;
+    max-width: 10%;
+}
+
+.main{
+    padding: 1rem;
+}
+
+
+#btn-translate:hover {background-color: rgb(165, 78, 78)}
+
+#btn-translate:active {
+  background-color: white;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#text { 
+    width: 80%;
+    margin: 2rem;
+    height: 15vh;
+    display: block;
+    padding: 1rem;
+}
+
+#btn-translate{
+    background-color: black;
+    color: #9ca3af;
+    border: none;
+    padding-right: 4rem;
+    margin: 1rem 2rem;
+    padding: 1rem 4rem;
+    font-family: 'kalam', cursive;
+    font-size: large;
+    
+}
+
+#dev{
+    display: block;
+    padding-left: 2rem;
+}
+
+#output {
+    border: 1px solid black;
+    width: 80%;
+    height: 10vh;
+    margin-left: 2rem;
+}
+
+
+.foot p {
+    margin: auto;
+    max-width: 600px;
+}
+.about{
+    padding-bottom: 0.5rem;
+    
+}
+.foot{
+    background-color: black;
+    position: static;
+    color: #9ca3af;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
+}
