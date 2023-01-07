@@ -27,7 +27,10 @@ body{
 }
 
 
-#btn-translate:hover {background-color: rgb(165, 78, 78)}
+#btn-translate:hover {
+    background-color: rgb(165, 78, 78)
+    cursor: pointer;    
+}
 
 #btn-translate:active {
   background-color: white;
